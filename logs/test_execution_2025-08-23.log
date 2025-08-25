@@ -1,0 +1,44 @@
+[8/23/2025, 2:27:33 PM] Global Setup: START - Initializing test environment
+[8/23/2025, 2:27:39 PM] Application Check: PASS - Base URL accessible
+[8/23/2025, 2:27:39 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/23/2025, 2:27:50 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/23/2025, 2:31:00 PM] Global Setup: START - Initializing test environment
+[8/23/2025, 2:31:01 PM] Application Check: PASS - Base URL accessible
+[8/23/2025, 2:31:02 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/23/2025, 2:31:09 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/23/2025, 2:31:10 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/23/2025, 2:31:12 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/23/2025, 2:31:13 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/23/2025, 2:31:15 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/23/2025, 2:31:15 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/23/2025, 2:31:18 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/23/2025, 2:31:18 PM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/23/2025, 2:31:20 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/23/2025, 2:31:21 PM] E2E001_Complete_Purchase_Single_Product: PASS - Complete purchase flow successful in 15098ms
+[8/23/2025, 2:31:24 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/23/2025, 2:31:25 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/23/2025, 2:31:26 PM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/23/2025, 2:31:28 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/23/2025, 2:31:32 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/23/2025, 2:31:33 PM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/23/2025, 2:31:35 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/23/2025, 2:31:36 PM] E2E002_Complete_Purchase_Multiple_Products: PASS - Multiple products purchase flow successful
+[8/23/2025, 2:31:38 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/23/2025, 2:31:39 PM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/23/2025, 2:31:41 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/23/2025, 2:31:41 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/23/2025, 2:31:44 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/23/2025, 2:31:46 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/23/2025, 2:31:47 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/23/2025, 2:31:49 PM] E2E003_Problem_User_Shopping_Experience: PASS - Problem user shopping experience documented
+[8/23/2025, 2:31:50 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/23/2025, 2:31:50 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/23/2025, 2:31:50 PM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/23/2025, 2:31:53 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/23/2025, 2:32:00 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/23/2025, 2:32:03 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/23/2025, 2:32:04 PM] TC030_Complete_Checkout_Process: PASS - Complete checkout process successful
+[8/23/2025, 2:32:07 PM] E2E004_Performance_Glitch_User_Experience: PASS - Performance glitch user experience documented
+[8/23/2025, 2:32:18 PM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/23/2025, 2:32:21 PM] E2E005_Comprehensive_Cart_Management: PASS - Comprehensive cart management successful
+[8/23/2025, 2:32:33 PM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly

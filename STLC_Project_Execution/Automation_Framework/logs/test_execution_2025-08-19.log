@@ -1,0 +1,820 @@
+[8/19/2025, 10:23:00 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:23:06 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:23:06 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:23:16 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:23:18 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:23:19 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:23:21 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:23:22 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:23:23 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:23:23 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:23:23 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:23:26 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:23:26 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:23:31 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:23:33 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:23:34 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:23:36 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:23:38 AM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/19/2025, 10:23:39 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:23:42 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:23:45 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:23:49 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:23:49 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:23:51 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:23:52 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:23:56 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:23:57 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:24:00 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:24:01 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:24:02 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:24:05 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:24:10 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:24:13 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:24:15 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:24:17 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:24:18 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:24:19 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:24:22 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:24:36 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:24:41 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:24:45 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:24:49 AM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:24:50 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:24:58 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:25:04 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:25:10 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:25:13 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    8 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:25:19 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:25:22 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:25:33 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:25:36 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:25:41 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:25:43 AM] TC007_Performance_Glitch_User_Login: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThan[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: > [32m1000[39m
+Received:   [31m974[39m
+[8/19/2025, 10:26:01 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:26:02 AM] E2E003_Problem_User_Shopping_Experience: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('#login-button')[22m
+[2m    - locator resolved to <input type="submit" value="LOGIN" id="login-button" class="btn_action"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[8/19/2025, 10:26:06 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:26:21 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:26:24 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:26:27 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:26:30 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:26:33 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:26:33 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:26:37 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:26:37 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:26:42 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:26:46 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:26:54 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:26:57 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:27:04 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:27:05 AM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:27:10 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:27:11 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    8 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:27:16 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:27:23 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:27:23 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:27:24 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:27:25 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:27:28 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:27:30 AM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/19/2025, 10:27:38 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:27:39 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:27:40 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:27:41 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:27:43 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:27:47 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:27:54 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:27:54 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:28:00 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:28:01 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:28:06 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:28:06 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:28:08 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:28:10 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:28:12 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:28:12 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:28:14 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:28:16 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:28:18 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:28:18 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:28:24 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:28:30 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:28:52 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:29:00 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:29:03 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:29:05 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:29:08 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:29:08 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:29:12 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:29:17 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:29:21 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:29:22 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:29:25 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:29:30 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:29:30 AM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/19/2025, 10:29:36 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:29:36 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:29:37 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:29:39 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:29:40 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:29:43 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:29:44 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:29:48 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:29:49 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:29:53 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:29:55 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:29:56 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:29:56 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:29:58 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:30:00 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:30:10 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:30:12 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:30:14 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:30:15 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:30:18 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:30:18 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:30:27 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:30:30 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:30:34 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:30:35 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:30:40 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:30:42 AM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:30:45 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:30:45 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:30:52 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:30:54 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:31:00 AM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/19/2025, 10:31:02 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:31:03 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:31:06 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:31:07 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:31:08 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:31:10 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:31:12 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:31:15 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:31:16 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:31:20 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:31:20 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:31:21 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:31:21 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:31:23 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:31:25 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:31:27 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:31:27 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:31:29 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:31:30 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:31:31 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:31:34 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:31:39 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:31:43 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:31:46 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:31:47 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:32:02 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:32:03 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:32:07 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:32:08 AM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:32:12 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:32:12 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:32:16 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:32:17 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:32:18 AM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/19/2025, 10:32:29 AM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:32:31 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:32:38 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:32:41 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:32:42 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:32:43 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:32:43 AM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/19/2025, 10:32:49 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:32:52 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:32:54 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    8 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:32:55 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:32:58 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:33:02 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:33:05 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:33:18 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:33:32 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:34:05 AM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:34:11 AM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/19/2025, 10:34:20 AM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/19/2025, 10:34:20 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:34:20 AM] Execution Time: INFO - 674 seconds
+[8/19/2025, 10:34:20 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:42:27 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:42:31 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:42:31 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:42:36 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:42:38 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:42:38 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:42:38 AM] Execution Time: INFO - 7 seconds
+[8/19/2025, 10:42:38 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:44:00 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:44:02 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:44:02 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:44:15 AM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/19/2025, 10:44:15 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:44:15 AM] Execution Time: INFO - 13 seconds
+[8/19/2025, 10:44:15 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:49:28 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:49:30 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:49:30 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:49:37 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 10:49:37 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:49:37 AM] Execution Time: INFO - 7 seconds
+[8/19/2025, 10:49:37 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:51:27 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:51:29 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:51:29 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:51:36 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Sauce Labs Backpack"[39m
+Received: [31mundefined[39m
+[8/19/2025, 10:51:36 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:51:36 AM] Execution Time: INFO - 7 seconds
+[8/19/2025, 10:51:36 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:52:19 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:52:20 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:52:20 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:52:28 AM] TC029_Checkout_Step2_Order_Summary: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m29.99[39m
+Received: [31mundefined[39m
+[8/19/2025, 10:52:28 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:52:28 AM] Execution Time: INFO - 8 seconds
+[8/19/2025, 10:52:28 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:53:16 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:53:18 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:53:18 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:53:25 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 10:53:25 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:53:25 AM] Execution Time: INFO - 7 seconds
+[8/19/2025, 10:53:25 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:53:45 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:53:46 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:53:46 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:53:54 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 10:53:59 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:54:04 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 10:54:10 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 10:54:15 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 10:54:57 AM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/19/2025, 10:55:08 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 10:55:08 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:55:08 AM] Execution Time: INFO - 82 seconds
+[8/19/2025, 10:55:08 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 10:57:00 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 10:57:02 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 10:57:02 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 10:57:10 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 10:57:11 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 10:57:12 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 10:57:14 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 10:57:15 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 10:57:16 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 10:57:16 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 10:57:18 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 10:57:20 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 10:57:21 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 10:57:21 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 10:57:24 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 10:57:26 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 10:57:28 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 10:57:30 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 10:57:32 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 10:57:37 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 10:57:41 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 10:57:42 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 10:57:45 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 10:57:45 AM] E2E002_Complete_Purchase_Multiple_Products: PASS - Multiple products purchase flow successful
+[8/19/2025, 10:57:48 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 10:57:48 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 10:57:50 AM] E2E003_Problem_User_Shopping_Experience: PASS - Problem user shopping experience documented
+[8/19/2025, 10:57:51 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 10:57:52 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 10:57:55 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 10:57:59 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 10:58:02 AM] E2E004_Performance_Glitch_User_Experience: PASS - Performance glitch user experience documented
+[8/19/2025, 10:58:02 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 10:58:08 AM] E2E005_Comprehensive_Cart_Management: PASS - Comprehensive cart management successful
+[8/19/2025, 10:58:10 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 10:58:13 AM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/19/2025, 10:58:13 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 10:58:24 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 10:58:24 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 10:58:24 AM] Execution Time: INFO - 83 seconds
+[8/19/2025, 10:58:24 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 11:06:22 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 11:06:25 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 11:06:25 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 11:06:34 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:07:20 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 11:07:22 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 11:07:22 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 11:07:29 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:07:31 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 11:07:32 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 11:07:33 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 11:07:35 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 11:07:35 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 11:07:37 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 11:07:38 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 11:07:39 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 11:07:40 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 11:07:43 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 11:07:44 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 11:07:47 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 11:07:48 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 11:07:49 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 11:07:54 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 11:07:55 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 11:08:00 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 11:08:04 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 11:08:05 AM] E2E002_Complete_Purchase_Multiple_Products: PASS - Multiple products purchase flow successful
+[8/19/2025, 11:08:07 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 11:08:08 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 11:08:11 AM] E2E003_Problem_User_Shopping_Experience: PASS - Problem user shopping experience documented
+[8/19/2025, 11:08:12 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 11:08:13 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 11:08:16 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 11:08:17 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 11:08:21 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 11:08:23 AM] E2E004_Performance_Glitch_User_Experience: PASS - Performance glitch user experience documented
+[8/19/2025, 11:08:25 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 11:08:26 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:08:29 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 11:08:31 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 11:08:32 AM] E2E005_Comprehensive_Cart_Management: PASS - Comprehensive cart management successful
+[8/19/2025, 11:08:33 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 11:08:35 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 11:08:36 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 11:08:40 AM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/19/2025, 11:08:41 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 11:08:49 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 11:08:51 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 11:08:53 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 11:08:59 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 11:09:03 AM] TC007_Performance_Glitch_User_Login: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('#login-button')[22m
+[2m    - locator resolved to <input type="submit" value="LOGIN" id="login-button" class="btn_action"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:09:08 AM] TC026_Checkout_Step1_Empty_FirstName: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@value=\'CONTINUE\']')[22m
+[2m    - locator resolved to <input type="submit" value="CONTINUE" class="btn_primary cart_button"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:09:15 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 11:09:19 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 11:09:24 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 11:09:26 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 11:09:40 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 11:09:41 AM] TC029_Checkout_Step2_Order_Summary: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@value=\'CONTINUE\']')[22m
+[2m    - locator resolved to <input type="submit" value="CONTINUE" class="btn_primary cart_button"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:09:57 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[contains(@class, \'cart_item\') and .//div[text()=\'Sauce Labs Bolt T-Shirt\']]//button[contains(@class, \'btn_secondary\')]')[22m
+[2m    - locator resolved to <button class="btn_secondary cart_button">REMOVE</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:09:57 AM] TC021_Remove_Item_From_Cart: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[contains(@class, \'cart_item\') and .//div[text()=\'Sauce Labs Backpack\']]//button[contains(@class, \'btn_secondary\')]')[22m
+[2m    - locator resolved to <button class="btn_secondary cart_button">REMOVE</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:10:17 AM] E2E003_Problem_User_Shopping_Experience: FAIL - page.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('#login-button')[22m
+[2m    - locator resolved to <input type="submit" value="LOGIN" id="login-button" class="btn_action"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[8/19/2025, 11:10:20 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 11:10:35 AM] E2E004_Performance_Glitch_User_Experience: PASS - Performance glitch user experience documented
+[8/19/2025, 11:10:52 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 11:10:59 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:11:00 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 11:11:01 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 11:11:04 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 11:11:06 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 11:11:08 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 11:11:12 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 11:11:23 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 11:11:25 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 11:11:28 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 11:11:33 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 11:11:34 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 11:11:41 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 11:11:46 AM] E2E005_Comprehensive_Cart_Management: FAIL - page.goto: NS_ERROR_UNKNOWN_HOST
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/19/2025, 11:11:49 AM] E2E001_Complete_Purchase_Single_Product: FAIL - page.goto: Could not resolve hostname
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/19/2025, 11:11:51 AM] E2E002_Complete_Purchase_Multiple_Products: FAIL - page.goto: Could not resolve hostname
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/19/2025, 11:11:54 AM] E2E003_Problem_User_Shopping_Experience: FAIL - page.goto: Could not resolve hostname
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/19/2025, 11:11:56 AM] E2E004_Performance_Glitch_User_Experience: FAIL - page.goto: Could not resolve hostname
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/19/2025, 11:11:59 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 11:12:03 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 11:12:07 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 11:12:08 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 11:12:12 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 11:12:12 AM] E2E005_Comprehensive_Cart_Management: PASS - Comprehensive cart management successful
+[8/19/2025, 11:12:14 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 11:12:16 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 11:12:19 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:12:20 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 11:12:21 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 11:12:21 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 11:12:23 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 11:12:25 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 11:12:27 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 11:12:27 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 11:12:27 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 11:12:29 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 11:12:32 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 11:12:37 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 11:12:39 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 11:12:41 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 11:12:46 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 11:12:46 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 11:12:56 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 11:12:56 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 11:13:46 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 11:13:50 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 11:13:50 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 11:13:58 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/19/2025, 11:13:59 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 11:14:00 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/19/2025, 11:14:02 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/19/2025, 11:14:04 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/19/2025, 11:14:04 AM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/19/2025, 11:14:05 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 11:14:05 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/19/2025, 11:14:08 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/19/2025, 11:14:10 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 11:14:10 AM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/19/2025, 11:14:15 AM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/19/2025, 11:14:15 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 11:14:17 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/19/2025, 11:14:20 AM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/19/2025, 11:14:21 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 11:14:24 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/19/2025, 11:14:28 AM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/19/2025, 11:14:32 AM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/19/2025, 11:14:33 AM] E2E002_Complete_Purchase_Multiple_Products: PASS - Multiple products purchase flow successful
+[8/19/2025, 11:14:35 AM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/19/2025, 11:14:35 AM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/19/2025, 11:14:38 AM] E2E003_Problem_User_Shopping_Experience: PASS - Problem user shopping experience documented
+[8/19/2025, 11:14:40 AM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/19/2025, 11:14:40 AM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/19/2025, 11:14:43 AM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/19/2025, 11:14:45 AM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/19/2025, 11:14:47 AM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/19/2025, 11:14:48 AM] E2E004_Performance_Glitch_User_Experience: PASS - Performance glitch user experience documented
+[8/19/2025, 11:14:50 AM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/19/2025, 11:14:56 AM] E2E005_Comprehensive_Cart_Management: PASS - Comprehensive cart management successful
+[8/19/2025, 11:14:59 AM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/19/2025, 11:15:02 AM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/19/2025, 11:15:03 AM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/19/2025, 11:15:13 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 11:15:14 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 11:15:14 AM] Execution Time: INFO - 84 seconds
+[8/19/2025, 11:15:14 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/19/2025, 11:19:22 AM] Global Setup: START - Initializing test environment
+[8/19/2025, 11:19:24 AM] Application Check: PASS - Base URL accessible
+[8/19/2025, 11:19:24 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/19/2025, 11:19:32 AM] TC025_Checkout_Step1_Valid_Info: PASS - Checkout step 1 completed with valid information
+[8/19/2025, 11:19:37 AM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/19/2025, 11:19:42 AM] TC027_Checkout_Step1_Empty_LastName: PASS - Empty last name validation working correctly
+[8/19/2025, 11:19:47 AM] TC028_Checkout_Step1_Empty_PostalCode: PASS - Empty postal code validation working correctly
+[8/19/2025, 11:19:53 AM] TC029_Checkout_Step2_Order_Summary: PASS - Checkout step 2 order summary verified
+[8/19/2025, 11:20:33 AM] TC031_Checkout_Multiple_Items: PASS - Multiple items checkout completed successfully
+[8/19/2025, 11:20:44 AM] TC032_Checkout_Cancel_Functionality: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mcart[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/[7minventory[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/inventory.html"[22m
+
+[8/19/2025, 11:20:45 AM] Global Teardown: START - Cleaning up test environment
+[8/19/2025, 11:20:45 AM] Execution Time: INFO - 80 seconds
+[8/19/2025, 11:20:45 AM] Global Teardown: COMPLETE - Test environment cleaned up

@@ -1,0 +1,2504 @@
+{
+  "config": {
+    "configFile": "D:\\IEEE YP\\STLC_Project_Execution\\Automation_Framework\\playwright.config.js",
+    "rootDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "D:\\IEEE YP\\STLC_Project_Execution\\Automation_Framework\\config\\global-setup.js",
+    "globalTeardown": "D:\\IEEE YP\\STLC_Project_Execution\\Automation_Framework\\config\\global-teardown.js",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "project": "Sauce Demo STLC Automation",
+      "version": "1.0.0",
+      "author": "IEEE YP 2025",
+      "description": "Comprehensive e-commerce testing automation framework",
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/results.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "project": "Sauce Demo STLC Automation",
+          "version": "1.0.0",
+          "author": "IEEE YP 2025",
+          "description": "Comprehensive e-commerce testing automation framework",
+          "actualWorkers": 4
+        },
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "D:/IEEE YP/STLC_Project_Execution/Automation_Framework/tests",
+        "testIgnore": [
+          "**/node_modules/**",
+          "**/test-results/**",
+          "**/playwright-report/**"
+        ],
+        "testMatch": [
+          "**/tests/**/*.test.js",
+          "**/tests/**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.54.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth\\login.test.js",
+      "file": "auth/login.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Authentication Module Tests",
+          "file": "auth/login.test.js",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC001: Valid Login with Standard User @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4316,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Found 6 products in catalog\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Verify login page elements are displayed",
+                          "duration": 35
+                        },
+                        {
+                          "title": "Enter valid credentials and login",
+                          "duration": 1132
+                        },
+                        {
+                          "title": "Verify successful login and redirection to inventory page",
+                          "duration": 165
+                        },
+                        {
+                          "title": "Verify user can see product catalog",
+                          "duration": 23
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:04.880Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-80bb3f470b7b7b47bd17",
+              "file": "auth/login.test.js",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "TC002: Invalid Login - Wrong Password @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1609,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Correct error message displayed for invalid credentials\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Enter invalid credentials",
+                          "duration": 151
+                        },
+                        {
+                          "title": "Verify error message is displayed",
+                          "duration": 47
+                        },
+                        {
+                          "title": "Verify user remains on login page",
+                          "duration": 8
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:09.522Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-18367d7a163a25373229",
+              "file": "auth/login.test.js",
+              "line": 59,
+              "column": 3
+            },
+            {
+              "title": "TC003: Locked Out User Login @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1528,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Locked out user properly blocked\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Attempt login with locked out user",
+                          "duration": 127
+                        },
+                        {
+                          "title": "Verify locked out error message",
+                          "duration": 39
+                        },
+                        {
+                          "title": "Verify user cannot access inventory",
+                          "duration": 6
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:11.139Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-51e38426a2e53f17c1d4",
+              "file": "auth/login.test.js",
+              "line": 90,
+              "column": 3
+            },
+            {
+              "title": "TC004: Empty Username Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1344,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Empty username validation working correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Attempt login with empty username",
+                          "duration": 128
+                        },
+                        {
+                          "title": "Verify username required error message",
+                          "duration": 34
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:12.674Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-3117a9c92ff8663c7cbb",
+              "file": "auth/login.test.js",
+              "line": 121,
+              "column": 3
+            },
+            {
+              "title": "TC005: Empty Password Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1538,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Empty password validation working correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Attempt login with empty password",
+                          "duration": 119
+                        },
+                        {
+                          "title": "Verify password required error message",
+                          "duration": 29
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:14.024Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-996eca3185427478d8b4",
+              "file": "auth/login.test.js",
+              "line": 145,
+              "column": 3
+            },
+            {
+              "title": "TC006: Login with Problem User @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2886,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Problem user can login (issues may appear in other functionality)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Login with problem user credentials",
+                          "duration": 1065
+                        },
+                        {
+                          "title": "Verify login succeeds despite being problem user",
+                          "duration": 23
+                        },
+                        {
+                          "title": "Verify inventory page loads",
+                          "duration": 66
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:15.568Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-d117a065ad133c448c56",
+              "file": "auth/login.test.js",
+              "line": 169,
+              "column": 3
+            },
+            {
+              "title": "TC007: Performance Glitch User Login @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7489,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⏱️  Login time for performance glitch user: 6046ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Login with performance glitch user",
+                          "duration": 6044
+                        },
+                        {
+                          "title": "Measure login performance",
+                          "duration": 4
+                        },
+                        {
+                          "title": "Verify successful login despite performance issues",
+                          "duration": 88
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:18.459Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-6257b9f644529c1b7395",
+              "file": "auth/login.test.js",
+              "line": 200,
+              "column": 3
+            },
+            {
+              "title": "TC008: Error Message Clear Functionality @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7409,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Error message cleared successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Generate an error message",
+                          "duration": 254
+                        },
+                        {
+                          "title": "Clear error message by clicking X button",
+                          "duration": 75
+                        },
+                        {
+                          "title": "Verify error message is cleared",
+                          "duration": 5023
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:25.956Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5ec9e453e2fe1ff3ca89-2f05a050e0c356691a08",
+              "file": "auth/login.test.js",
+              "line": 239,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "cart\\shopping-cart.test.js",
+      "file": "cart/shopping-cart.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Shopping Cart Module Tests",
+          "file": "cart/shopping-cart.test.js",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC018: View Empty Cart @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 11219,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Cart is empty as expected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to cart page",
+                          "duration": 758
+                        },
+                        {
+                          "title": "Verify cart page elements are present",
+                          "duration": 30
+                        },
+                        {
+                          "title": "Verify cart is empty",
+                          "duration": 5026
+                        },
+                        {
+                          "title": "Verify Continue Shopping button is functional",
+                          "duration": 246
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:04.895Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-1dad27d42784af6e227a",
+              "file": "cart/shopping-cart.test.js",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC019: View Cart with Single Item @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3938,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Cart contains: Sauce Labs Backpack\n"
+                        },
+                        {
+                          "text": "✅ Product details correct: Sauce Labs Backpack - $29.99 - Qty: 1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add product to cart from inventory",
+                          "duration": 153
+                        },
+                        {
+                          "title": "Navigate to cart page",
+                          "duration": 934
+                        },
+                        {
+                          "title": "Verify cart contains the added product",
+                          "duration": 131
+                        },
+                        {
+                          "title": "Verify product details in cart",
+                          "duration": 155
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:16.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-02ba2bed79d80d9aa183",
+              "file": "cart/shopping-cart.test.js",
+              "line": 63,
+              "column": 3
+            },
+            {
+              "title": "TC020: View Cart with Multiple Items @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4245,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Cart contains all 3 products\n"
+                        },
+                        {
+                          "text": "✅ Cart total calculated correctly: $55.97\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add multiple products to cart",
+                          "duration": 284
+                        },
+                        {
+                          "title": "Navigate to cart page",
+                          "duration": 739
+                        },
+                        {
+                          "title": "Verify all products are in cart",
+                          "duration": 67
+                        },
+                        {
+                          "title": "Verify cart total calculation",
+                          "duration": 74
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:20.377Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-1c34acbc2cd62750f6fb",
+              "file": "cart/shopping-cart.test.js",
+              "line": 107,
+              "column": 3
+            },
+            {
+              "title": "TC021: Remove Item from Cart @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3677,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Sauce Labs Backpack removed successfully\n"
+                        },
+                        {
+                          "text": "✅ Cart badge updated correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add multiple products to cart",
+                          "duration": 891
+                        },
+                        {
+                          "title": "Remove one product from cart",
+                          "duration": 74
+                        },
+                        {
+                          "title": "Verify product is removed from cart",
+                          "duration": 23
+                        },
+                        {
+                          "title": "Verify cart badge is updated",
+                          "duration": 52
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:24.629Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-d4e4b0eec80e938d5641",
+              "file": "cart/shopping-cart.test.js",
+              "line": 168,
+              "column": 3
+            },
+            {
+              "title": "TC022: Remove All Items from Cart @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 14478,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ All items removed, cart is empty\n"
+                        },
+                        {
+                          "text": "✅ Cart badge hidden after removing all items\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add multiple products to cart",
+                          "duration": 842
+                        },
+                        {
+                          "title": "Remove all products from cart",
+                          "duration": 173
+                        },
+                        {
+                          "title": "Verify cart is empty",
+                          "duration": 5005
+                        },
+                        {
+                          "title": "Verify cart badge is hidden",
+                          "duration": 5018
+                        },
+                        {
+                          "title": "Verify checkout button behavior with empty cart",
+                          "duration": 175
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:28.313Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-2061d5c645b11bd2efc0",
+              "file": "cart/shopping-cart.test.js",
+              "line": 213,
+              "column": 3
+            },
+            {
+              "title": "TC023: Cart Persistence Across Navigation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4145,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Cart count persisted across navigation\n"
+                        },
+                        {
+                          "text": "✅ Cart contents persisted across navigation\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add product to cart",
+                          "duration": 109
+                        },
+                        {
+                          "title": "Navigate to cart and back to inventory",
+                          "duration": 1007
+                        },
+                        {
+                          "title": "Verify cart count persists",
+                          "duration": 51
+                        },
+                        {
+                          "title": "Verify cart contents persist",
+                          "duration": 618
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:42.797Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-bbdc6de5c552ab175626",
+              "file": "cart/shopping-cart.test.js",
+              "line": 268,
+              "column": 3
+            },
+            {
+              "title": "TC024: Cart Item Quantity Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3516,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Product add button correctly shows Remove state\n"
+                        },
+                        {
+                          "text": "✅ Cart shows single item with correct quantity\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add same product multiple times",
+                          "duration": 84
+                        },
+                        {
+                          "title": "Verify cart shows single item with quantity 1",
+                          "duration": 789
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:46.948Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "40ee652097852b9dbf92-f1c1f8829ced0d526413",
+              "file": "cart/shopping-cart.test.js",
+              "line": 309,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "checkout\\checkout-process.test.js",
+      "file": "checkout/checkout-process.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout Process Module Tests",
+          "file": "checkout/checkout-process.test.js",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC025: Checkout Step 1 - Valid Information @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 15018,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ All checkout step 1 elements are present\n"
+                        },
+                        {
+                          "text": "✅ Successfully proceeded to checkout step 2\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Proceed to checkout step 1",
+                          "duration": 404
+                        },
+                        {
+                          "title": "Verify checkout step 1 page elements",
+                          "duration": 84
+                        },
+                        {
+                          "title": "Fill customer information with valid data",
+                          "duration": 217
+                        },
+                        {
+                          "title": "Continue to checkout step 2",
+                          "duration": 7440
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:04.923Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-184e58157c682aee9825",
+              "file": "checkout/checkout-process.test.js",
+              "line": 34,
+              "column": 3
+            },
+            {
+              "title": "TC026: Checkout Step 1 - Empty First Name Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6681,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Validation error detected - remaining on checkout step 1\n"
+                        },
+                        {
+                          "text": "✅ Empty first name validation working correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Proceed to checkout step 1",
+                          "duration": 243
+                        },
+                        {
+                          "title": "Submit form with empty first name",
+                          "duration": 2383
+                        },
+                        {
+                          "title": "Verify validation error for empty first name",
+                          "duration": 52
+                        },
+                        {
+                          "title": "Verify user remains on step 1",
+                          "duration": 11
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:20.390Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-9565d069903ef328f585",
+              "file": "checkout/checkout-process.test.js",
+              "line": 67,
+              "column": 3
+            },
+            {
+              "title": "TC027: Checkout Step 1 - Empty Last Name Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6373,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Validation error detected - remaining on checkout step 1\n"
+                        },
+                        {
+                          "text": "✅ Empty last name validation working correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Proceed to checkout step 1",
+                          "duration": 191
+                        },
+                        {
+                          "title": "Submit form with empty last name",
+                          "duration": 2332
+                        },
+                        {
+                          "title": "Verify validation error for empty last name",
+                          "duration": 28
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:27.083Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-2325a582be340af2ecfb",
+              "file": "checkout/checkout-process.test.js",
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "TC028: Checkout Step 1 - Empty Postal Code Validation @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6544,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Validation error detected - remaining on checkout step 1\n"
+                        },
+                        {
+                          "text": "✅ Empty postal code validation working correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Proceed to checkout step 1",
+                          "duration": 186
+                        },
+                        {
+                          "title": "Submit form with empty postal code",
+                          "duration": 2343
+                        },
+                        {
+                          "title": "Verify validation error for empty postal code",
+                          "duration": 30
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:33.464Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-7c681b6eee6c644d9522",
+              "file": "checkout/checkout-process.test.js",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "TC029: Checkout Step 2 - Order Summary Verification @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 11738,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ All checkout step 2 elements are present\n"
+                        },
+                        {
+                          "text": "✅ Order summary shows correct items\n"
+                        },
+                        {
+                          "text": "✅ Price calculations correct: Subtotal: $29.99, Tax: $2.4, Total: $32.39\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Complete checkout step 1",
+                          "duration": 7711
+                        },
+                        {
+                          "title": "Verify checkout step 2 page elements",
+                          "duration": 91
+                        },
+                        {
+                          "title": "Verify order summary contains correct items",
+                          "duration": 43
+                        },
+                        {
+                          "title": "Verify price calculations",
+                          "duration": 111
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:40.016Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-36c9fe8e42fdadd0c4f9",
+              "file": "checkout/checkout-process.test.js",
+              "line": 156,
+              "column": 3
+            },
+            {
+              "title": "TC030: Complete Checkout Process @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 12921,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Order completed successfully\n"
+                        },
+                        {
+                          "text": "✅ Order confirmation page displayed correctly\n"
+                        },
+                        {
+                          "text": "✅ Complete checkout process successful\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Complete checkout steps 1 and 2",
+                          "duration": 7591
+                        },
+                        {
+                          "title": "Complete the order",
+                          "duration": 2139
+                        },
+                        {
+                          "title": "Verify order completion page",
+                          "duration": 16
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:51.762Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-29c7b34e050ab55f1144",
+              "file": "checkout/checkout-process.test.js",
+              "line": 201,
+              "column": 3
+            },
+            {
+              "title": "TC031: Checkout with Multiple Items @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 13751,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Multiple items checkout - Subtotal: $55.97\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add additional products to cart",
+                          "duration": 923
+                        },
+                        {
+                          "title": "Complete checkout process",
+                          "duration": 7490
+                        },
+                        {
+                          "title": "Verify order summary for multiple items",
+                          "duration": 71
+                        },
+                        {
+                          "title": "Complete the order",
+                          "duration": 2123
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:02:04.702Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-5a5cea0c43e0bab8b1a0",
+              "file": "checkout/checkout-process.test.js",
+              "line": 246,
+              "column": 3
+            },
+            {
+              "title": "TC032: Checkout Cancel Functionality @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 15038,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Successfully cancelled checkout from step 1\n"
+                        },
+                        {
+                          "text": "✅ Cart contents preserved after cancellation\n"
+                        },
+                        {
+                          "text": "✅ Successfully cancelled checkout from step 2\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Start checkout process",
+                          "duration": 154
+                        },
+                        {
+                          "title": "Cancel checkout from step 1",
+                          "duration": 2094
+                        },
+                        {
+                          "title": "Verify cart contents are preserved",
+                          "duration": 28
+                        },
+                        {
+                          "title": "Test cancel from step 2",
+                          "duration": 9475
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:02:18.458Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c20828885cf181264b11-589b7e23347c0f0c127f",
+              "file": "checkout/checkout-process.test.js",
+              "line": 307,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e\\user-journey.test.js",
+      "file": "e2e/user-journey.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End-to-End User Journey Tests",
+          "file": "e2e/user-journey.test.js",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "E2E001: Complete Purchase Flow - Single Product @smoke @e2e",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "e2e"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 17314,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⏱️ Login completed in 2841ms\n"
+                        },
+                        {
+                          "text": "🔍 Product discovery completed in 515ms - Selected: Sauce Labs Onesie\n"
+                        },
+                        {
+                          "text": "🛒 Product added to cart in 118ms\n"
+                        },
+                        {
+                          "text": "📋 Cart reviewed in 842ms\n"
+                        },
+                        {
+                          "text": "📝 Customer information entered in 7680ms\n"
+                        },
+                        {
+                          "text": "💰 Order total: $8.63 (Subtotal: $7.99, Tax: $0.64)\n"
+                        },
+                        {
+                          "text": "📊 Order reviewed in 546ms\n"
+                        },
+                        {
+                          "text": "✅ Purchase completed in 2556ms\n"
+                        },
+                        {
+                          "text": "🎉 E2E Purchase flow completed successfully\n"
+                        },
+                        {
+                          "text": "\n📈 Performance Summary:\n"
+                        },
+                        {
+                          "text": "   Login: 2841ms\n"
+                        },
+                        {
+                          "text": "   Product Discovery: 515ms\n"
+                        },
+                        {
+                          "text": "   Add to Cart: 118ms\n"
+                        },
+                        {
+                          "text": "   Cart Review: 842ms\n"
+                        },
+                        {
+                          "text": "   Checkout Step 1: 7680ms\n"
+                        },
+                        {
+                          "text": "   Order Review: 546ms\n"
+                        },
+                        {
+                          "text": "   Complete Purchase: 2556ms\n"
+                        },
+                        {
+                          "text": "   Total E2E Time: 15098ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "User Authentication",
+                          "duration": 2844
+                        },
+                        {
+                          "title": "Product Discovery and Selection",
+                          "duration": 516
+                        },
+                        {
+                          "title": "Add Product to Cart",
+                          "duration": 121
+                        },
+                        {
+                          "title": "Review Shopping Cart",
+                          "duration": 843
+                        },
+                        {
+                          "title": "Checkout Process - Customer Information",
+                          "duration": 7680
+                        },
+                        {
+                          "title": "Order Review and Confirmation",
+                          "duration": 547
+                        },
+                        {
+                          "title": "Complete Purchase",
+                          "duration": 2558
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:04.892Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c173279d2181b64dba2-dd518b5dcf16ec603191",
+              "file": "e2e/user-journey.test.js",
+              "line": 28,
+              "column": 3
+            },
+            {
+              "title": "E2E002: Complete Purchase Flow - Multiple Products @e2e",
+              "ok": true,
+              "tags": [
+                "e2e"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 14112,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Login and Product Selection",
+                          "duration": 2492
+                        },
+                        {
+                          "title": "Cart Management",
+                          "duration": 884
+                        },
+                        {
+                          "title": "Complete Checkout with Multiple Items",
+                          "duration": 10191
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:22.668Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c173279d2181b64dba2-a695026f854238f06f3c",
+              "file": "e2e/user-journey.test.js",
+              "line": 181,
+              "column": 3
+            },
+            {
+              "title": "E2E003: Shopping Experience with Problem User @e2e",
+              "ok": true,
+              "tags": [
+                "e2e"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 12971,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Problem user can still add products to cart\n"
+                        },
+                        {
+                          "text": "✅ Problem user can complete purchases (issues are mainly visual)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Login with Problem User",
+                          "duration": 1718
+                        },
+                        {
+                          "title": "Verify Problem User Behavior",
+                          "duration": 136
+                        },
+                        {
+                          "title": "Attempt Complete Purchase with Problem User",
+                          "duration": 10568
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:36.785Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c173279d2181b64dba2-ddbc028eb742f1e2d27c",
+              "file": "e2e/user-journey.test.js",
+              "line": 261,
+              "column": 3
+            },
+            {
+              "title": "E2E004: Performance Testing with Performance Glitch User @e2e",
+              "ok": true,
+              "tags": [
+                "e2e"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 18354,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⏱️ Performance glitch user login time: 7444ms\n"
+                        },
+                        {
+                          "text": "⏱️ Add to cart interaction time: 102ms\n"
+                        },
+                        {
+                          "text": "⏱️ Complete checkout time: 10403ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Performance Test - Login",
+                          "duration": 7446
+                        },
+                        {
+                          "title": "Performance Test - Product Interactions",
+                          "duration": 102
+                        },
+                        {
+                          "title": "Performance Test - Complete Purchase",
+                          "duration": 10435
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:49.766Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c173279d2181b64dba2-5647f13b2ad082b56d85",
+              "file": "e2e/user-journey.test.js",
+              "line": 309,
+              "column": 3
+            },
+            {
+              "title": "E2E005: Comprehensive Shopping Cart Management @e2e",
+              "ok": true,
+              "tags": [
+                "e2e"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 13763,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Setup - Login and Add Products",
+                          "duration": 2218
+                        },
+                        {
+                          "title": "Cart Manipulation - Remove and Re-add",
+                          "duration": 983
+                        },
+                        {
+                          "title": "Complete Purchase with Final Cart",
+                          "duration": 10184
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:02:08.132Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c173279d2181b64dba2-51af6c13db758a90dc13",
+              "file": "e2e/user-journey.test.js",
+              "line": 374,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "inventory\\products.test.js",
+      "file": "inventory/products.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Product Catalog Module Tests",
+          "file": "inventory/products.test.js",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC009: Product Catalog Display Verification @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2686,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "All 6 products displayed correctly\n"
+                        },
+                        {
+                          "text": "Product verified: Sauce Labs Backpack - $29.99\n"
+                        },
+                        {
+                          "text": "Product verified: Sauce Labs Bike Light - $9.99\n"
+                        },
+                        {
+                          "text": "Product verified: Sauce Labs Bolt T-Shirt - $15.99\n"
+                        },
+                        {
+                          "text": "Product verified: Sauce Labs Fleece Jacket - $49.99\n"
+                        },
+                        {
+                          "text": "Product verified: Sauce Labs Onesie - $7.99\n"
+                        },
+                        {
+                          "text": "Product verified: Test.allTheThings() T-Shirt (Red) - $15.99\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Verify all required page elements are present",
+                          "duration": 43
+                        },
+                        {
+                          "title": "Verify all 6 products are displayed",
+                          "duration": 18
+                        },
+                        {
+                          "title": "Verify product details are displayed",
+                          "duration": 37
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:33.383Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-a49800ec981ab12b7618",
+              "file": "inventory/products.test.js",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "TC010: Product Sorting - Name A to Z @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3040,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Products sorted A-Z correctly: [\n  \u001b[32m'Sauce Labs Backpack'\u001b[39m,\n  \u001b[32m'Sauce Labs Bike Light'\u001b[39m,\n  \u001b[32m'Sauce Labs Bolt T-Shirt'\u001b[39m,\n  \u001b[32m'Sauce Labs Fleece Jacket'\u001b[39m,\n  \u001b[32m'Sauce Labs Onesie'\u001b[39m,\n  \u001b[32m'Test.allTheThings() T-Shirt (Red)'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Sort products by name A to Z",
+                          "duration": 113
+                        },
+                        {
+                          "title": "Verify products are sorted correctly",
+                          "duration": 27
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:36.076Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-d5245ec93de684dabb5d",
+              "file": "inventory/products.test.js",
+              "line": 69,
+              "column": 3
+            },
+            {
+              "title": "TC011: Product Sorting - Name Z to A @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2747,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Products sorted Z-A correctly: [\n  \u001b[32m'Test.allTheThings() T-Shirt (Red)'\u001b[39m,\n  \u001b[32m'Sauce Labs Onesie'\u001b[39m,\n  \u001b[32m'Sauce Labs Fleece Jacket'\u001b[39m,\n  \u001b[32m'Sauce Labs Bolt T-Shirt'\u001b[39m,\n  \u001b[32m'Sauce Labs Bike Light'\u001b[39m,\n  \u001b[32m'Sauce Labs Backpack'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Sort products by name Z to A",
+                          "duration": 119
+                        },
+                        {
+                          "title": "Verify products are sorted correctly",
+                          "duration": 37
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:39.122Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-ec31f9c51a14304528c0",
+              "file": "inventory/products.test.js",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "TC012: Product Sorting - Price Low to High @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2864,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Products sorted by price (low to high) correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Sort products by price low to high",
+                          "duration": 163
+                        },
+                        {
+                          "title": "Verify products are sorted by price correctly",
+                          "duration": 84
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:41.877Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-26107cd48620188a9061",
+              "file": "inventory/products.test.js",
+              "line": 119,
+              "column": 3
+            },
+            {
+              "title": "TC013: Product Sorting - Price High to Low @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2896,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Products sorted by price (high to low) correctly\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Sort products by price high to low",
+                          "duration": 143
+                        },
+                        {
+                          "title": "Verify products are sorted by price correctly",
+                          "duration": 85
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:44.748Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-c03f2455a94fa07069a7",
+              "file": "inventory/products.test.js",
+              "line": 153,
+              "column": 3
+            },
+            {
+              "title": "TC014: Add Single Product to Cart @smoke @regression",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2695,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Cart badge shows correct count: 1\n"
+                        },
+                        {
+                          "text": "Button text changed to Remove\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add product to cart",
+                          "duration": 58
+                        },
+                        {
+                          "title": "Verify cart badge shows item count",
+                          "duration": 41
+                        },
+                        {
+                          "title": "Verify Add to Cart button changes to Remove",
+                          "duration": 8
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:47.651Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-aadd026fcffa30c15926",
+              "file": "inventory/products.test.js",
+              "line": 187,
+              "column": 3
+            },
+            {
+              "title": "TC015: Add Multiple Products to Cart @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3066,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Cart badge shows correct count: 3\n"
+                        },
+                        {
+                          "text": "All buttons changed to Remove\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add multiple products to cart",
+                          "duration": 200
+                        },
+                        {
+                          "title": "Verify cart badge shows correct count",
+                          "duration": 33
+                        },
+                        {
+                          "title": "Verify all Add to Cart buttons changed to Remove",
+                          "duration": 16
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:50.352Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-2ec7ef6d3500c888395c",
+              "file": "inventory/products.test.js",
+              "line": 218,
+              "column": 3
+            },
+            {
+              "title": "TC016: Remove Product from Cart via Inventory Page @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8039,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Cart badge hidden after removing all items\n"
+                        },
+                        {
+                          "text": "Button text changed back to Add to Cart\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Add product to cart first",
+                          "duration": 106
+                        },
+                        {
+                          "title": "Remove product from cart",
+                          "duration": 58
+                        },
+                        {
+                          "title": "Verify cart badge is updated",
+                          "duration": 5012
+                        },
+                        {
+                          "title": "Verify Remove button changes back to Add to Cart",
+                          "duration": 3
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:01:53.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-2b5c12cd28257bd8cf1a",
+              "file": "inventory/products.test.js",
+              "line": 257,
+              "column": 3
+            },
+            {
+              "title": "TC017: Product Image Display @regression",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2475,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/sauce-backpack-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/bike-light-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/bolt-shirt-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/sauce-pullover-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/red-onesie-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Image verified: https://www.saucedemo.com/v1/img/red-tatt-1200x1500.jpg\n"
+                        },
+                        {
+                          "text": "Found images: \u001b[33m6\u001b[39m\n"
+                        },
+                        {
+                          "text": "Image details: [\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/sauce-backpack-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  },\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/bike-light-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  },\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/bolt-shirt-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  },\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/sauce-pullover-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  },\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/red-onesie-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  },\n  {\n    src: \u001b[32m'https://www.saucedemo.com/v1/img/red-tatt-1200x1500.jpg'\u001b[39m,\n    alt: \u001b[32m''\u001b[39m,\n    complete: \u001b[33mtrue\u001b[39m,\n    naturalWidth: \u001b[33m1200\u001b[39m,\n    naturalHeight: \u001b[33m1500\u001b[39m\n  }\n]\n"
+                        },
+                        {
+                          "text": "All images loaded: \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "All product images loaded successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Verify all products have images",
+                          "duration": 30
+                        },
+                        {
+                          "title": "Verify images are loaded and visible",
+                          "duration": 15
+                        }
+                      ],
+                      "startTime": "2025-08-23T09:02:01.477Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81adb1788fc8daa4463b-d4ab7c25746a6298793d",
+              "file": "inventory/products.test.js",
+              "line": 294,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-23T09:01:02.035Z",
+    "duration": 91696.019,
+    "expected": 37,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

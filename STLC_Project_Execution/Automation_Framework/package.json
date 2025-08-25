@@ -1,0 +1,60 @@
+{
+  "name": "ieee-yp-stlc-automation",
+  "version": "1.0.0",
+  "description": "IEEE YP 2025 STLC Project - Sauce Demo E-commerce Testing Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:login": "playwright test tests/auth/",
+    "test:inventory": "playwright test tests/inventory/",
+    "test:cart": "playwright test tests/cart/",
+    "test:checkout": "playwright test tests/checkout/",
+    "test:e2e": "playwright test tests/e2e/",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "test:parallel": "playwright test --workers=4",
+    "test:serial": "playwright test --workers=1",
+    "report": "playwright show-report",
+    "report:open": "playwright show-report",
+    "trace": "playwright show-trace",
+    "codegen": "playwright codegen https://www.saucedemo.com/v1/",
+    "install:browsers": "playwright install",
+    "install:deps": "playwright install-deps",
+    "setup": "npm run install:browsers && npm run install:deps",
+    "clean": "rimraf test-results playwright-report",
+    "pretest": "npm run clean",
+    "posttest": "npm run report",
+    "test:ci": "npm run clean && npm run test -- --reporter=html,json,junit"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e-commerce",
+    "sauce-demo",
+    "ieee-yp",
+    "stlc"
+  ],
+  "author": "IEEE YP STLC Project Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^0.19.0",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "faker": "^5.5.3",
+    "moment": "^2.29.4"
+  }
+}

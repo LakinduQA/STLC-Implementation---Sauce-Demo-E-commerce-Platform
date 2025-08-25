@@ -1,0 +1,719 @@
+[8/2/2025, 11:43:58 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:43:59 AM] Application Check: FAIL - Cannot read properties of undefined (reading 'baseURL')
+[8/2/2025, 11:43:59 AM] Global Setup: FAIL - Application not accessible: Cannot read properties of undefined (reading 'baseURL')
+[8/2/2025, 11:43:59 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:43:59 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:44:29 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:44:34 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:44:34 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:50:40 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:50:40 AM] Execution Time: INFO - 366 seconds
+[8/2/2025, 11:50:40 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:52:48 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:52:49 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:52:49 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:52:49 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:52:49 AM] Execution Time: INFO - 0 seconds
+[8/2/2025, 11:52:49 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:53:10 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:53:11 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:53:11 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:53:18 AM] TC001_Valid_Login_Standard_User: FAIL - inventoryPage.verifyInventoryPageElements is not a function
+[8/2/2025, 11:53:27 AM] TC002_Invalid_Login_Wrong_Password: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mindex.html[27m"[39m
+Received string: [31m"https://www.saucedemo.com/v1/"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/"[22m
+
+[8/2/2025, 11:53:36 AM] TC003_Locked_Out_User_Login: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/[7mindex.html[27m"[39m
+Received string: [31m"https://www.saucedemo.com/v1/"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/"[22m
+
+[8/2/2025, 11:53:39 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 11:53:41 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 11:53:44 AM] TC006_Problem_User_Login: FAIL - inventoryPage.verifyInventoryPageElements is not a function
+[8/2/2025, 11:53:57 AM] TC007_Performance_Glitch_User_Login: FAIL - inventoryPage.verifyInventoryPageElements is not a function
+[8/2/2025, 11:54:05 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 11:54:06 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:54:06 AM] Execution Time: INFO - 55 seconds
+[8/2/2025, 11:54:06 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:55:33 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:55:35 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:55:35 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:55:43 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 11:55:43 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:55:43 AM] Execution Time: INFO - 8 seconds
+[8/2/2025, 11:55:43 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:56:34 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:56:35 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:56:35 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:56:44 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 11:56:46 AM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 11:56:48 AM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 11:56:50 AM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 11:56:51 AM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 11:56:54 AM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 11:57:04 AM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 11:57:11 AM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 11:57:12 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:57:12 AM] Execution Time: INFO - 36 seconds
+[8/2/2025, 11:57:12 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:57:30 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:57:31 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:57:31 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:57:39 AM] TC009_Product_Catalog_Display: FAIL - inventoryPage.getAllProductDetails is not a function
+[8/2/2025, 11:57:48 AM] TC014_Add_Single_Product_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 11:57:48 AM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 11:57:48 AM] Execution Time: INFO - 17 seconds
+[8/2/2025, 11:57:48 AM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 11:59:35 AM] Global Setup: START - Initializing test environment
+[8/2/2025, 11:59:37 AM] Application Check: PASS - Base URL accessible
+[8/2/2025, 11:59:37 AM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 11:59:52 AM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 12:00:12 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:00:27 PM] TC019_View_Cart_Single_Item: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:00:28 PM] TC014_Add_Single_Product_Cart: FAIL - inventoryPage.getAddToCartButtonText is not a function
+[8/2/2025, 12:00:35 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:00:35 PM] Execution Time: INFO - 58 seconds
+[8/2/2025, 12:00:35 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:04:04 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:04:05 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:04:06 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:04:14 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 12:04:14 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:04:14 PM] Execution Time: INFO - 9 seconds
+[8/2/2025, 12:04:14 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:16:29 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:16:34 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:16:34 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:16:48 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 12:16:49 PM] E2E001_Complete_Purchase_Single_Product: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:16:49 PM] TC018_View_Empty_Cart: FAIL - cartPage.verifyCartPageElements is not a function
+[8/2/2025, 12:16:50 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 12:16:53 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 12:16:55 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 12:16:57 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 12:16:57 PM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:17:02 PM] TC019_View_Cart_Single_Item: FAIL - cartPage.getCartItemDetails is not a function
+[8/2/2025, 12:17:02 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 12:17:02 PM] E2E003_Problem_User_Shopping_Experience: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:17:11 PM] TC020_View_Cart_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:17:12 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 12:17:15 PM] E2E004_Performance_Glitch_User_Experience: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:17:19 PM] TC021_Remove_Item_From_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:17:19 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 12:17:22 PM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"6"[39m
+Received: [31m6[39m
+[8/2/2025, 12:17:25 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:17:30 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:17:34 PM] TC022_Remove_All_Items_From_Cart: FAIL - cartPage.isCartBadgeVisible is not a function
+[8/2/2025, 12:17:34 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:17:39 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:17:48 PM] TC013_Product_Sorting_Price_High_Low: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:17:50 PM] TC023_Cart_Persistence_Navigation: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:17:53 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 12:17:58 PM] TC024_Cart_Item_Quantity_Validation: FAIL - cartPage.getCartItemDetails is not a function
+[8/2/2025, 12:17:59 PM] TC015_Add_Multiple_Products_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:18:07 PM] TC016_Remove_Product_From_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:18:14 PM] TC017_Product_Image_Display: FAIL - inventoryPage.getAllProductImages is not a function
+[8/2/2025, 12:21:03 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:21:03 PM] Execution Time: INFO - 269 seconds
+[8/2/2025, 12:21:03 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:21:34 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:21:37 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:21:37 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:21:48 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 12:21:49 PM] TC018_View_Empty_Cart: FAIL - cartPage.verifyCartPageElements is not a function
+[8/2/2025, 12:21:50 PM] E2E001_Complete_Purchase_Single_Product: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:21:50 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 12:21:52 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 12:21:55 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 12:21:57 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 12:22:00 PM] TC019_View_Cart_Single_Item: FAIL - cartPage.getCartItemDetails is not a function
+[8/2/2025, 12:22:00 PM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:22:01 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 12:22:07 PM] E2E003_Problem_User_Shopping_Experience: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:22:08 PM] TC020_View_Cart_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:22:11 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 12:22:15 PM] TC021_Remove_Item_From_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:22:18 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 12:22:19 PM] E2E004_Performance_Glitch_User_Experience: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:22:24 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:22:28 PM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"6"[39m
+Received: [31m6[39m
+[8/2/2025, 12:22:28 PM] TC022_Remove_All_Items_From_Cart: FAIL - cartPage.isCartBadgeVisible is not a function
+[8/2/2025, 12:22:29 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:22:34 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:22:37 PM] TC023_Cart_Persistence_Navigation: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:22:42 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:22:50 PM] TC024_Cart_Item_Quantity_Validation: FAIL - cartPage.getCartItemDetails is not a function
+[8/2/2025, 12:22:55 PM] TC013_Product_Sorting_Price_High_Low: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:23:03 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 12:23:11 PM] TC015_Add_Multiple_Products_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:23:18 PM] TC016_Remove_Product_From_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:23:26 PM] TC017_Product_Image_Display: FAIL - inventoryPage.getAllProductImages is not a function
+[8/2/2025, 12:26:02 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:26:02 PM] Execution Time: INFO - 265 seconds
+[8/2/2025, 12:26:02 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:39:16 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:39:20 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:39:21 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:39:21 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:39:21 PM] Execution Time: INFO - 0 seconds
+[8/2/2025, 12:39:21 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:40:14 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:40:15 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:40:15 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:40:27 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 12:40:29 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 12:40:30 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 12:40:32 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 12:40:34 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 12:40:37 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 12:40:47 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 12:40:54 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 12:40:54 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:40:54 PM] Execution Time: INFO - 39 seconds
+[8/2/2025, 12:40:54 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:41:08 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:41:09 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:41:09 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:41:16 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:41:21 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:41:26 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:41:32 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:41:36 PM] TC013_Product_Sorting_Price_High_Low: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:41:43 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 12:41:49 PM] TC015_Add_Multiple_Products_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"3"[39m
+Received: [31m3[39m
+[8/2/2025, 12:41:58 PM] TC016_Remove_Product_From_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"1"[39m
+Received: [31m1[39m
+[8/2/2025, 12:42:05 PM] TC017_Product_Image_Display: FAIL - inventoryPage.getAllProductImages is not a function
+[8/2/2025, 12:42:05 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:42:05 PM] Execution Time: INFO - 56 seconds
+[8/2/2025, 12:42:05 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:46:01 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:46:02 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:46:02 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:46:09 PM] TC013_Product_Sorting_Price_High_Low: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:46:10 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:46:10 PM] Execution Time: INFO - 7 seconds
+[8/2/2025, 12:46:10 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:46:40 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:46:41 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:46:41 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:46:48 PM] TC013_Product_Sorting_Price_High_Low: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:46:49 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:46:49 PM] Execution Time: INFO - 8 seconds
+[8/2/2025, 12:46:49 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:47:20 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:47:21 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:47:21 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:47:26 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:47:30 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:47:34 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:47:41 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:47:44 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 12:47:49 PM] TC014_Add_Single_Product_Cart: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m1[39m
+Received: [31m"1"[39m
+[8/2/2025, 12:47:55 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 12:48:01 PM] TC016_Remove_Product_From_Cart: FAIL - inventoryPage.isCartBadgeVisible is not a function
+[8/2/2025, 12:48:09 PM] TC017_Product_Image_Display: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31m""[39m
+[8/2/2025, 12:48:09 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:48:09 PM] Execution Time: INFO - 48 seconds
+[8/2/2025, 12:48:09 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:48:59 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:49:01 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:49:01 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:49:40 PM] TC019_View_Cart_Single_Item: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m1[39m
+Received: [31m"1"[39m
+[8/2/2025, 12:49:48 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 12:49:54 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 12:51:10 PM] TC024_Cart_Item_Quantity_Validation: FAIL - Cannot read properties of null (reading '0')
+[8/2/2025, 12:51:11 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:51:11 PM] Execution Time: INFO - 130 seconds
+[8/2/2025, 12:51:11 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:54:36 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:54:40 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:54:41 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:54:46 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:54:53 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:55:01 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:55:10 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:55:20 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 12:55:28 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 12:55:36 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 12:55:48 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 12:55:53 PM] TC017_Product_Image_Display: FAIL - inventoryPage.areAllImagesLoaded is not a function
+[8/2/2025, 12:55:54 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:55:54 PM] Execution Time: INFO - 73 seconds
+[8/2/2025, 12:55:54 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 12:58:15 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 12:58:16 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 12:58:16 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 12:58:24 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 12:58:31 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 12:58:37 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 12:58:43 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 12:58:51 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 12:59:00 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 12:59:14 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 12:59:26 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 12:59:33 PM] TC017_Product_Image_Display: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+[8/2/2025, 12:59:33 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 12:59:33 PM] Execution Time: INFO - 77 seconds
+[8/2/2025, 12:59:33 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:00:03 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:00:05 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:00:05 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:00:13 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/2/2025, 1:00:14 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:00:14 PM] Execution Time: INFO - 8 seconds
+[8/2/2025, 1:00:14 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:00:24 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:00:26 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:00:26 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:00:36 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 1:00:42 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 1:00:48 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 1:00:53 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 1:00:59 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 1:01:04 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 1:01:09 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 1:01:18 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 1:01:23 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/2/2025, 1:01:23 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:01:23 PM] Execution Time: INFO - 57 seconds
+[8/2/2025, 1:01:23 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:01:49 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:01:51 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:01:51 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:01:51 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:01:51 PM] Execution Time: INFO - 0 seconds
+[8/2/2025, 1:01:51 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:02:00 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:02:01 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:02:01 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:02:46 PM] TC019_View_Cart_Single_Item: FAIL - Cannot read properties of null (reading '0')
+[8/2/2025, 1:02:53 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:02:59 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:04:12 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:04:12 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:04:12 PM] Execution Time: INFO - 131 seconds
+[8/2/2025, 1:04:12 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:05:51 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:05:52 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:05:52 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:06:20 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:06:25 PM] TC019_View_Cart_Single_Item: FAIL - Cannot read properties of undefined (reading 'name')
+[8/2/2025, 1:06:32 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:06:38 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:07:03 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:07:22 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:07:28 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:07:28 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:07:28 PM] Execution Time: INFO - 96 seconds
+[8/2/2025, 1:07:28 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:07:53 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:07:55 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:07:55 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:08:14 PM] TC019_View_Cart_Single_Item: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"[7m$[27m29.99"[39m
+Received: [31m"29.99"[39m
+[8/2/2025, 1:08:14 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:08:14 PM] Execution Time: INFO - 19 seconds
+[8/2/2025, 1:08:14 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:08:53 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:08:54 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:08:54 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:09:02 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:09:03 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:09:03 PM] Execution Time: INFO - 9 seconds
+[8/2/2025, 1:09:03 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:09:11 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:09:12 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:09:13 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:09:39 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:09:48 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:09:54 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:10:00 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:10:28 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:10:46 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:10:54 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:10:54 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:10:54 PM] Execution Time: INFO - 101 seconds
+[8/2/2025, 1:10:54 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:11:24 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:11:25 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:11:25 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:11:44 PM] TC025_Checkout_Step1_Valid_Info: FAIL - checkoutPage.verifyCheckoutStep1Elements is not a function
+[8/2/2025, 1:12:03 PM] TC026_Checkout_Step1_Empty_FirstName: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:12:23 PM] TC027_Checkout_Step1_Empty_LastName: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:12:43 PM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:13:00 PM] TC029_Checkout_Step2_Order_Summary: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:13:20 PM] TC030_Complete_Checkout_Process: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:13:49 PM] TC031_Checkout_Multiple_Items: FAIL - page.fill: value: expected string, got undefined
+[8/2/2025, 1:14:07 PM] TC032_Checkout_Cancel_Functionality: FAIL - checkoutPage.cancelCheckout is not a function
+[8/2/2025, 1:14:08 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:14:08 PM] Execution Time: INFO - 163 seconds
+[8/2/2025, 1:14:08 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:15:42 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:15:44 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:15:44 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:15:51 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 1:15:53 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 1:15:55 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 1:15:57 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 1:15:58 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 1:16:01 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 1:16:11 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 1:16:18 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 1:16:19 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:16:19 PM] Execution Time: INFO - 35 seconds
+[8/2/2025, 1:16:19 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:16:52 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:16:53 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:16:54 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:17:04 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 1:17:05 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 1:17:07 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 1:17:09 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 1:17:10 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 1:17:12 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 1:17:16 PM] E2E001_Complete_Purchase_Single_Product: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:17:22 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:17:24 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 1:17:27 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:17:30 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 1:17:33 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:17:34 PM] E2E002_Complete_Purchase_Multiple_Products: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:17:36 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 1:17:37 PM] E2E003_Problem_User_Shopping_Experience: FAIL - page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://www.saucedemo.com/v1/
+Call log:
+[2m  - navigating to "https://www.saucedemo.com/v1/", waiting until "load"[22m
+
+[8/2/2025, 1:17:39 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:17:41 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 1:17:46 PM] TC026_Checkout_Step1_Empty_FirstName: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:17:52 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 1:18:00 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 1:18:05 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:18:06 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 1:18:08 PM] E2E004_Performance_Glitch_User_Experience: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:18:08 PM] TC027_Checkout_Step1_Empty_LastName: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:18:13 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 1:18:22 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 1:18:23 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:18:29 PM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:18:29 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:18:31 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 1:18:40 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/2/2025, 1:18:49 PM] TC029_Checkout_Step2_Order_Summary: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:19:06 PM] TC030_Complete_Checkout_Process: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:19:35 PM] TC031_Checkout_Multiple_Items: FAIL - checkoutPage.continueToStep2 is not a function
+[8/2/2025, 1:20:08 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:20:08 PM] Execution Time: INFO - 195 seconds
+[8/2/2025, 1:20:08 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:22:29 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:22:30 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:22:31 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:22:43 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:22:48 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:22:53 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:22:58 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:23:13 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:23:19 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:23:24 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:23:24 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:23:24 PM] Execution Time: INFO - 53 seconds
+[8/2/2025, 1:23:24 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:23:55 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:23:57 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:23:57 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:24:09 PM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:24:16 PM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/2/2025, 1:24:21 PM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/2/2025, 1:24:29 PM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/2/2025, 1:24:41 PM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:25:22 PM] TC031_Checkout_Multiple_Items: FAIL - checkoutPage.getOrderSummaryItems is not a function
+[8/2/2025, 1:25:31 PM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/2/2025, 1:25:31 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:25:31 PM] Execution Time: INFO - 94 seconds
+[8/2/2025, 1:25:31 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:28:44 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:28:46 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:28:46 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:28:55 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 1:28:56 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 1:28:58 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 1:28:59 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 1:28:59 PM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:29:00 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:29:01 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 1:29:01 PM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:29:04 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 1:29:07 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:29:11 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:29:12 PM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/2/2025, 1:29:13 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 1:29:14 PM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:29:17 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:29:17 PM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/2/2025, 1:29:20 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 1:29:31 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:29:32 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 1:29:33 PM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/2/2025, 1:29:36 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 1:29:37 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:29:40 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 1:29:41 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:29:43 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 1:29:45 PM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:29:47 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 1:29:51 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 1:29:55 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 1:30:04 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 1:30:09 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/2/2025, 1:30:35 PM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:30:38 PM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:30:43 PM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/2/2025, 1:30:44 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:30:44 PM] Execution Time: INFO - 118 seconds
+[8/2/2025, 1:30:44 PM] Global Teardown: COMPLETE - Test environment cleaned up
+[8/2/2025, 1:45:47 PM] Global Setup: START - Initializing test environment
+[8/2/2025, 1:45:52 PM] Application Check: PASS - Base URL accessible
+[8/2/2025, 1:45:52 PM] Global Setup: COMPLETE - Environment ready for testing
+[8/2/2025, 1:46:00 PM] TC001_Valid_Login_Standard_User: PASS - Standard user login successful
+[8/2/2025, 1:46:05 PM] TC002_Invalid_Login_Wrong_Password: PASS - Invalid login properly rejected
+[8/2/2025, 1:46:07 PM] TC003_Locked_Out_User_Login: PASS - Locked out user correctly handled
+[8/2/2025, 1:46:09 PM] TC004_Empty_Username_Validation: PASS - Empty username validation successful
+[8/2/2025, 1:46:11 PM] E2E001_Complete_Purchase_Single_Product: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:46:11 PM] TC005_Empty_Password_Validation: PASS - Empty password validation successful
+[8/2/2025, 1:46:12 PM] TC018_View_Empty_Cart: PASS - Empty cart viewed successfully
+[8/2/2025, 1:46:13 PM] TC025_Checkout_Step1_Valid_Info: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    8 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:46:16 PM] TC006_Problem_User_Login: PASS - Problem user login successful
+[8/2/2025, 1:46:19 PM] TC019_View_Cart_Single_Item: PASS - Single item cart viewed successfully
+[8/2/2025, 1:46:21 PM] TC026_Checkout_Step1_Empty_FirstName: PASS - Empty first name validation working correctly
+[8/2/2025, 1:46:26 PM] TC020_View_Cart_Multiple_Items: PASS - Multiple items cart viewed successfully
+[8/2/2025, 1:46:26 PM] E2E002_Complete_Purchase_Multiple_Products: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m2[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:46:27 PM] TC007_Performance_Glitch_User_Login: PASS - Performance glitch user login completed
+[8/2/2025, 1:46:29 PM] TC027_Checkout_Step1_Empty_LastName: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mLa[27mst Name is required"[39m
+Received: [31m"Error: [7mFir[27mst Name is required"[39m
+[8/2/2025, 1:46:31 PM] TC021_Remove_Item_From_Cart: PASS - Item removed from cart successfully
+[8/2/2025, 1:46:34 PM] TC008_Error_Message_Clear: PASS - Error message clear functionality working
+[8/2/2025, 1:46:37 PM] TC028_Checkout_Step1_Empty_PostalCode: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Error: [7mPostal Cod[27me is required"[39m
+Received: [31m"Error: [7mFirst Nam[27me is required"[39m
+[8/2/2025, 1:46:37 PM] TC009_Product_Catalog_Display: PASS - Product catalog displayed correctly
+[8/2/2025, 1:46:41 PM] TC010_Product_Sorting_Name_AZ: PASS - Name A-Z sorting working correctly
+[8/2/2025, 1:46:47 PM] TC022_Remove_All_Items_From_Cart: PASS - All items removed from cart successfully
+[8/2/2025, 1:46:47 PM] TC011_Product_Sorting_Name_ZA: PASS - Name Z-A sorting working correctly
+[8/2/2025, 1:46:49 PM] TC029_Checkout_Step2_Order_Summary: FAIL - [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+Expected string: [32m"https://www.saucedemo.com/v1/checkout-step-[7mtwo[27m.html"[39m
+Received string: [31m"https://www.saucedemo.com/v1/checkout-step-[7mone[27m.html"[39m
+Call log:
+[2m  - Expect "toHaveURL" with timeout 5000ms[22m
+[2m    9 × unexpected value "https://www.saucedemo.com/v1/checkout-step-one.html"[22m
+
+[8/2/2025, 1:46:51 PM] TC012_Product_Sorting_Price_Low_High: PASS - Price low-high sorting working correctly
+[8/2/2025, 1:46:53 PM] TC023_Cart_Persistence_Navigation: PASS - Cart persistence working correctly
+[8/2/2025, 1:46:55 PM] TC013_Product_Sorting_Price_High_Low: PASS - Price high-low sorting working correctly
+[8/2/2025, 1:47:01 PM] TC024_Cart_Item_Quantity_Validation: PASS - Cart quantity validation working correctly
+[8/2/2025, 1:47:01 PM] TC014_Add_Single_Product_Cart: PASS - Single product added to cart successfully
+[8/2/2025, 1:47:05 PM] TC015_Add_Multiple_Products_Cart: PASS - Multiple products added to cart successfully
+[8/2/2025, 1:47:13 PM] TC016_Remove_Product_From_Cart: PASS - Product removed from cart successfully
+[8/2/2025, 1:47:17 PM] TC017_Product_Image_Display: PASS - Product images displayed correctly
+[8/2/2025, 1:47:35 PM] TC031_Checkout_Multiple_Items: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m3[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:47:45 PM] TC032_Checkout_Cancel_Functionality: PASS - Checkout cancel functionality working correctly
+[8/2/2025, 1:47:47 PM] E2E005_Comprehensive_Cart_Management: FAIL - [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m4[39m
+Received length: [31m0[39m
+Received array:  [31m[][39m
+[8/2/2025, 1:47:48 PM] Global Teardown: START - Cleaning up test environment
+[8/2/2025, 1:47:48 PM] Execution Time: INFO - 116 seconds
+[8/2/2025, 1:47:48 PM] Global Teardown: COMPLETE - Test environment cleaned up
