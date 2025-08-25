@@ -199,7 +199,7 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.54.2",
     "workers": 4,
     "webServer": null
@@ -237,7 +237,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4316,
+                      "duration": 6318,
                       "errors": [],
                       "stdout": [
                         {
@@ -249,22 +249,22 @@
                       "steps": [
                         {
                           "title": "Verify login page elements are displayed",
-                          "duration": 35
+                          "duration": 52
                         },
                         {
                           "title": "Enter valid credentials and login",
-                          "duration": 1132
+                          "duration": 3131
                         },
                         {
                           "title": "Verify successful login and redirection to inventory page",
-                          "duration": 165
+                          "duration": 121
                         },
                         {
                           "title": "Verify user can see product catalog",
-                          "duration": 23
+                          "duration": 22
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:04.880Z",
+                      "startTime": "2025-08-25T13:08:56.177Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -295,7 +295,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1609,
+                      "duration": 1624,
                       "errors": [],
                       "stdout": [
                         {
@@ -307,18 +307,18 @@
                       "steps": [
                         {
                           "title": "Enter invalid credentials",
-                          "duration": 151
+                          "duration": 111
                         },
                         {
                           "title": "Verify error message is displayed",
-                          "duration": 47
+                          "duration": 24
                         },
                         {
                           "title": "Verify user remains on login page",
-                          "duration": 8
+                          "duration": 9
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:09.522Z",
+                      "startTime": "2025-08-25T13:09:03.221Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -349,7 +349,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1528,
+                      "duration": 1576,
                       "errors": [],
                       "stdout": [
                         {
@@ -361,18 +361,18 @@
                       "steps": [
                         {
                           "title": "Attempt login with locked out user",
-                          "duration": 127
+                          "duration": 109
                         },
                         {
                           "title": "Verify locked out error message",
-                          "duration": 39
+                          "duration": 20
                         },
                         {
                           "title": "Verify user cannot access inventory",
-                          "duration": 6
+                          "duration": 5
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:11.139Z",
+                      "startTime": "2025-08-25T13:09:04.855Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -403,7 +403,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1344,
+                      "duration": 1557,
                       "errors": [],
                       "stdout": [
                         {
@@ -415,14 +415,14 @@
                       "steps": [
                         {
                           "title": "Attempt login with empty username",
-                          "duration": 128
+                          "duration": 94
                         },
                         {
                           "title": "Verify username required error message",
-                          "duration": 34
+                          "duration": 23
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:12.674Z",
+                      "startTime": "2025-08-25T13:09:06.446Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -453,7 +453,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1538,
+                      "duration": 1630,
                       "errors": [],
                       "stdout": [
                         {
@@ -465,14 +465,14 @@
                       "steps": [
                         {
                           "title": "Attempt login with empty password",
-                          "duration": 119
+                          "duration": 140
                         },
                         {
                           "title": "Verify password required error message",
-                          "duration": 29
+                          "duration": 32
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:14.024Z",
+                      "startTime": "2025-08-25T13:09:08.010Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -503,7 +503,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2886,
+                      "duration": 2658,
                       "errors": [],
                       "stdout": [
                         {
@@ -515,18 +515,18 @@
                       "steps": [
                         {
                           "title": "Login with problem user credentials",
-                          "duration": 1065
+                          "duration": 1052
                         },
                         {
                           "title": "Verify login succeeds despite being problem user",
-                          "duration": 23
+                          "duration": 18
                         },
                         {
                           "title": "Verify inventory page loads",
-                          "duration": 66
+                          "duration": 83
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:15.568Z",
+                      "startTime": "2025-08-25T13:09:09.646Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -557,11 +557,11 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7489,
+                      "duration": 8425,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "⏱️  Login time for performance glitch user: 6046ms\n"
+                          "text": "⏱️  Login time for performance glitch user: 6767ms\n"
                         }
                       ],
                       "stderr": [],
@@ -569,18 +569,18 @@
                       "steps": [
                         {
                           "title": "Login with performance glitch user",
-                          "duration": 6044
+                          "duration": 6758
                         },
                         {
                           "title": "Measure login performance",
-                          "duration": 4
+                          "duration": 12
                         },
                         {
                           "title": "Verify successful login despite performance issues",
-                          "duration": 88
+                          "duration": 112
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:18.459Z",
+                      "startTime": "2025-08-25T13:09:12.311Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -611,7 +611,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7409,
+                      "duration": 7858,
                       "errors": [],
                       "stdout": [
                         {
@@ -623,18 +623,18 @@
                       "steps": [
                         {
                           "title": "Generate an error message",
-                          "duration": 254
+                          "duration": 128
                         },
                         {
                           "title": "Clear error message by clicking X button",
-                          "duration": 75
+                          "duration": 51
                         },
                         {
                           "title": "Verify error message is cleared",
-                          "duration": 5023
+                          "duration": 5008
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:25.956Z",
+                      "startTime": "2025-08-25T13:09:20.745Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -683,7 +683,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 11219,
+                      "duration": 13235,
                       "errors": [],
                       "stdout": [
                         {
@@ -695,22 +695,22 @@
                       "steps": [
                         {
                           "title": "Navigate to cart page",
-                          "duration": 758
+                          "duration": 772
                         },
                         {
                           "title": "Verify cart page elements are present",
-                          "duration": 30
+                          "duration": 41
                         },
                         {
                           "title": "Verify cart is empty",
-                          "duration": 5026
+                          "duration": 5011
                         },
                         {
                           "title": "Verify Continue Shopping button is functional",
-                          "duration": 246
+                          "duration": 185
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:04.895Z",
+                      "startTime": "2025-08-25T13:08:56.189Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -742,7 +742,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3938,
+                      "duration": 5162,
                       "errors": [],
                       "stdout": [
                         {
@@ -757,22 +757,22 @@
                       "steps": [
                         {
                           "title": "Add product to cart from inventory",
-                          "duration": 153
+                          "duration": 60
                         },
                         {
                           "title": "Navigate to cart page",
-                          "duration": 934
+                          "duration": 718
                         },
                         {
                           "title": "Verify cart contains the added product",
-                          "duration": 131
+                          "duration": 40
                         },
                         {
                           "title": "Verify product details in cart",
-                          "duration": 155
+                          "duration": 103
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:16.431Z",
+                      "startTime": "2025-08-25T13:09:10.075Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -803,7 +803,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4245,
+                      "duration": 5011,
                       "errors": [],
                       "stdout": [
                         {
@@ -818,22 +818,22 @@
                       "steps": [
                         {
                           "title": "Add multiple products to cart",
-                          "duration": 284
+                          "duration": 145
                         },
                         {
                           "title": "Navigate to cart page",
-                          "duration": 739
+                          "duration": 697
                         },
                         {
                           "title": "Verify all products are in cart",
-                          "duration": 67
+                          "duration": 123
                         },
                         {
                           "title": "Verify cart total calculation",
-                          "duration": 74
+                          "duration": 45
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:20.377Z",
+                      "startTime": "2025-08-25T13:09:15.243Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -864,7 +864,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3677,
+                      "duration": 6412,
                       "errors": [],
                       "stdout": [
                         {
@@ -879,22 +879,22 @@
                       "steps": [
                         {
                           "title": "Add multiple products to cart",
-                          "duration": 891
+                          "duration": 714
                         },
                         {
                           "title": "Remove one product from cart",
-                          "duration": 74
+                          "duration": 49
                         },
                         {
                           "title": "Verify product is removed from cart",
-                          "duration": 23
+                          "duration": 17
                         },
                         {
                           "title": "Verify cart badge is updated",
-                          "duration": 52
+                          "duration": 17
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:24.629Z",
+                      "startTime": "2025-08-25T13:09:20.264Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -925,7 +925,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 14478,
+                      "duration": 14685,
                       "errors": [],
                       "stdout": [
                         {
@@ -940,26 +940,26 @@
                       "steps": [
                         {
                           "title": "Add multiple products to cart",
-                          "duration": 842
+                          "duration": 806
                         },
                         {
                           "title": "Remove all products from cart",
-                          "duration": 173
+                          "duration": 238
                         },
                         {
                           "title": "Verify cart is empty",
-                          "duration": 5005
+                          "duration": 5019
                         },
                         {
                           "title": "Verify cart badge is hidden",
-                          "duration": 5018
+                          "duration": 5012
                         },
                         {
                           "title": "Verify checkout button behavior with empty cart",
-                          "duration": 175
+                          "duration": 186
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:28.313Z",
+                      "startTime": "2025-08-25T13:09:26.683Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -990,7 +990,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4145,
+                      "duration": 4590,
                       "errors": [],
                       "stdout": [
                         {
@@ -1005,22 +1005,22 @@
                       "steps": [
                         {
                           "title": "Add product to cart",
-                          "duration": 109
+                          "duration": 68
                         },
                         {
                           "title": "Navigate to cart and back to inventory",
-                          "duration": 1007
+                          "duration": 838
                         },
                         {
                           "title": "Verify cart count persists",
-                          "duration": 51
+                          "duration": 21
                         },
                         {
                           "title": "Verify cart contents persist",
-                          "duration": 618
+                          "duration": 610
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:42.797Z",
+                      "startTime": "2025-08-25T13:09:41.374Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1051,7 +1051,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3516,
+                      "duration": 4644,
                       "errors": [],
                       "stdout": [
                         {
@@ -1066,14 +1066,14 @@
                       "steps": [
                         {
                           "title": "Add same product multiple times",
-                          "duration": 84
+                          "duration": 85
                         },
                         {
                           "title": "Verify cart shows single item with quantity 1",
-                          "duration": 789
+                          "duration": 817
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:46.948Z",
+                      "startTime": "2025-08-25T13:09:45.968Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1122,7 +1122,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 15018,
+                      "duration": 15985,
                       "errors": [],
                       "stdout": [
                         {
@@ -1137,22 +1137,22 @@
                       "steps": [
                         {
                           "title": "Proceed to checkout step 1",
-                          "duration": 404
+                          "duration": 303
                         },
                         {
                           "title": "Verify checkout step 1 page elements",
-                          "duration": 84
+                          "duration": 121
                         },
                         {
                           "title": "Fill customer information with valid data",
-                          "duration": 217
+                          "duration": 121
                         },
                         {
                           "title": "Continue to checkout step 2",
-                          "duration": 7440
+                          "duration": 7379
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:04.923Z",
+                      "startTime": "2025-08-25T13:08:56.195Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1183,7 +1183,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6681,
+                      "duration": 6870,
                       "errors": [],
                       "stdout": [
                         {
@@ -1198,22 +1198,22 @@
                       "steps": [
                         {
                           "title": "Proceed to checkout step 1",
-                          "duration": 243
+                          "duration": 251
                         },
                         {
                           "title": "Submit form with empty first name",
-                          "duration": 2383
+                          "duration": 2258
                         },
                         {
                           "title": "Verify validation error for empty first name",
-                          "duration": 52
+                          "duration": 37
                         },
                         {
                           "title": "Verify user remains on step 1",
-                          "duration": 11
+                          "duration": 6
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:20.390Z",
+                      "startTime": "2025-08-25T13:09:12.886Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1244,7 +1244,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6373,
+                      "duration": 7938,
                       "errors": [],
                       "stdout": [
                         {
@@ -1259,18 +1259,18 @@
                       "steps": [
                         {
                           "title": "Proceed to checkout step 1",
-                          "duration": 191
+                          "duration": 169
                         },
                         {
                           "title": "Submit form with empty last name",
-                          "duration": 2332
+                          "duration": 2222
                         },
                         {
                           "title": "Verify validation error for empty last name",
-                          "duration": 28
+                          "duration": 24
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:27.083Z",
+                      "startTime": "2025-08-25T13:09:19.764Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1301,7 +1301,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6544,
+                      "duration": 6367,
                       "errors": [],
                       "stdout": [
                         {
@@ -1316,18 +1316,18 @@
                       "steps": [
                         {
                           "title": "Proceed to checkout step 1",
-                          "duration": 186
+                          "duration": 179
                         },
                         {
                           "title": "Submit form with empty postal code",
-                          "duration": 2343
+                          "duration": 2282
                         },
                         {
                           "title": "Verify validation error for empty postal code",
-                          "duration": 30
+                          "duration": 20
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:33.464Z",
+                      "startTime": "2025-08-25T13:09:27.709Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1359,7 +1359,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 11738,
+                      "duration": 12191,
                       "errors": [],
                       "stdout": [
                         {
@@ -1377,22 +1377,22 @@
                       "steps": [
                         {
                           "title": "Complete checkout step 1",
-                          "duration": 7711
+                          "duration": 7744
                         },
                         {
                           "title": "Verify checkout step 2 page elements",
-                          "duration": 91
+                          "duration": 58
                         },
                         {
                           "title": "Verify order summary contains correct items",
-                          "duration": 43
+                          "duration": 26
                         },
                         {
                           "title": "Verify price calculations",
-                          "duration": 111
+                          "duration": 52
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:40.016Z",
+                      "startTime": "2025-08-25T13:09:34.084Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1424,7 +1424,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 12921,
+                      "duration": 14449,
                       "errors": [],
                       "stdout": [
                         {
@@ -1442,18 +1442,18 @@
                       "steps": [
                         {
                           "title": "Complete checkout steps 1 and 2",
-                          "duration": 7591
+                          "duration": 7612
                         },
                         {
                           "title": "Complete the order",
-                          "duration": 2139
+                          "duration": 2564
                         },
                         {
                           "title": "Verify order completion page",
-                          "duration": 16
+                          "duration": 14
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:51.762Z",
+                      "startTime": "2025-08-25T13:09:46.280Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1484,7 +1484,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 13751,
+                      "duration": 14160,
                       "errors": [],
                       "stdout": [
                         {
@@ -1496,22 +1496,22 @@
                       "steps": [
                         {
                           "title": "Add additional products to cart",
-                          "duration": 923
+                          "duration": 876
                         },
                         {
                           "title": "Complete checkout process",
-                          "duration": 7490
+                          "duration": 7466
                         },
                         {
                           "title": "Verify order summary for multiple items",
-                          "duration": 71
+                          "duration": 66
                         },
                         {
                           "title": "Complete the order",
-                          "duration": 2123
+                          "duration": 2184
                         }
                       ],
-                      "startTime": "2025-08-23T09:02:04.702Z",
+                      "startTime": "2025-08-25T13:10:00.734Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1542,7 +1542,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 15038,
+                      "duration": 16160,
                       "errors": [],
                       "stdout": [
                         {
@@ -1560,22 +1560,22 @@
                       "steps": [
                         {
                           "title": "Start checkout process",
-                          "duration": 154
+                          "duration": 167
                         },
                         {
                           "title": "Cancel checkout from step 1",
-                          "duration": 2094
+                          "duration": 2093
                         },
                         {
                           "title": "Verify cart contents are preserved",
-                          "duration": 28
+                          "duration": 24
                         },
                         {
                           "title": "Test cancel from step 2",
-                          "duration": 9475
+                          "duration": 9408
                         }
                       ],
-                      "startTime": "2025-08-23T09:02:18.458Z",
+                      "startTime": "2025-08-25T13:10:14.899Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1624,32 +1624,32 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 17314,
+                      "duration": 18080,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "⏱️ Login completed in 2841ms\n"
+                          "text": "⏱️ Login completed in 5006ms\n"
                         },
                         {
-                          "text": "🔍 Product discovery completed in 515ms - Selected: Sauce Labs Onesie\n"
+                          "text": "🔍 Product discovery completed in 197ms - Selected: Sauce Labs Onesie\n"
                         },
                         {
-                          "text": "🛒 Product added to cart in 118ms\n"
+                          "text": "🛒 Product added to cart in 76ms\n"
                         },
                         {
-                          "text": "📋 Cart reviewed in 842ms\n"
+                          "text": "📋 Cart reviewed in 803ms\n"
                         },
                         {
-                          "text": "📝 Customer information entered in 7680ms\n"
+                          "text": "📝 Customer information entered in 8075ms\n"
                         },
                         {
                           "text": "💰 Order total: $8.63 (Subtotal: $7.99, Tax: $0.64)\n"
                         },
                         {
-                          "text": "📊 Order reviewed in 546ms\n"
+                          "text": "📊 Order reviewed in 156ms\n"
                         },
                         {
-                          "text": "✅ Purchase completed in 2556ms\n"
+                          "text": "✅ Purchase completed in 2592ms\n"
                         },
                         {
                           "text": "🎉 E2E Purchase flow completed successfully\n"
@@ -1658,28 +1658,28 @@
                           "text": "\n📈 Performance Summary:\n"
                         },
                         {
-                          "text": "   Login: 2841ms\n"
+                          "text": "   Login: 5006ms\n"
                         },
                         {
-                          "text": "   Product Discovery: 515ms\n"
+                          "text": "   Product Discovery: 197ms\n"
                         },
                         {
-                          "text": "   Add to Cart: 118ms\n"
+                          "text": "   Add to Cart: 76ms\n"
                         },
                         {
-                          "text": "   Cart Review: 842ms\n"
+                          "text": "   Cart Review: 803ms\n"
                         },
                         {
-                          "text": "   Checkout Step 1: 7680ms\n"
+                          "text": "   Checkout Step 1: 8075ms\n"
                         },
                         {
-                          "text": "   Order Review: 546ms\n"
+                          "text": "   Order Review: 156ms\n"
                         },
                         {
-                          "text": "   Complete Purchase: 2556ms\n"
+                          "text": "   Complete Purchase: 2592ms\n"
                         },
                         {
-                          "text": "   Total E2E Time: 15098ms\n"
+                          "text": "   Total E2E Time: 16905ms\n"
                         }
                       ],
                       "stderr": [],
@@ -1687,34 +1687,34 @@
                       "steps": [
                         {
                           "title": "User Authentication",
-                          "duration": 2844
+                          "duration": 5009
                         },
                         {
                           "title": "Product Discovery and Selection",
-                          "duration": 516
+                          "duration": 197
                         },
                         {
                           "title": "Add Product to Cart",
-                          "duration": 121
+                          "duration": 76
                         },
                         {
                           "title": "Review Shopping Cart",
-                          "duration": 843
+                          "duration": 803
                         },
                         {
                           "title": "Checkout Process - Customer Information",
-                          "duration": 7680
+                          "duration": 8075
                         },
                         {
                           "title": "Order Review and Confirmation",
-                          "duration": 547
+                          "duration": 157
                         },
                         {
                           "title": "Complete Purchase",
-                          "duration": 2558
+                          "duration": 2592
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:04.892Z",
+                      "startTime": "2025-08-25T13:08:56.205Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1745,7 +1745,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 14112,
+                      "duration": 14975,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -1753,18 +1753,18 @@
                       "steps": [
                         {
                           "title": "Login and Product Selection",
-                          "duration": 2492
+                          "duration": 3526
                         },
                         {
                           "title": "Cart Management",
-                          "duration": 884
+                          "duration": 801
                         },
                         {
                           "title": "Complete Checkout with Multiple Items",
-                          "duration": 10191
+                          "duration": 10151
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:22.668Z",
+                      "startTime": "2025-08-25T13:09:14.985Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1795,7 +1795,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 12971,
+                      "duration": 12867,
                       "errors": [],
                       "stdout": [
                         {
@@ -1810,18 +1810,18 @@
                       "steps": [
                         {
                           "title": "Login with Problem User",
-                          "duration": 1718
+                          "duration": 1958
                         },
                         {
                           "title": "Verify Problem User Behavior",
-                          "duration": 136
+                          "duration": 84
                         },
                         {
                           "title": "Attempt Complete Purchase with Problem User",
-                          "duration": 10568
+                          "duration": 10401
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:36.785Z",
+                      "startTime": "2025-08-25T13:09:29.968Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1852,17 +1852,17 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 18354,
+                      "duration": 18784,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "⏱️ Performance glitch user login time: 7444ms\n"
+                          "text": "⏱️ Performance glitch user login time: 7940ms\n"
                         },
                         {
-                          "text": "⏱️ Add to cart interaction time: 102ms\n"
+                          "text": "⏱️ Add to cart interaction time: 89ms\n"
                         },
                         {
-                          "text": "⏱️ Complete checkout time: 10403ms\n"
+                          "text": "⏱️ Complete checkout time: 10419ms\n"
                         }
                       ],
                       "stderr": [],
@@ -1870,18 +1870,18 @@
                       "steps": [
                         {
                           "title": "Performance Test - Login",
-                          "duration": 7446
+                          "duration": 7943
                         },
                         {
                           "title": "Performance Test - Product Interactions",
-                          "duration": 102
+                          "duration": 89
                         },
                         {
                           "title": "Performance Test - Complete Purchase",
-                          "duration": 10435
+                          "duration": 10441
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:49.766Z",
+                      "startTime": "2025-08-25T13:09:42.840Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1912,7 +1912,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 13763,
+                      "duration": 15655,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -1920,18 +1920,18 @@
                       "steps": [
                         {
                           "title": "Setup - Login and Add Products",
-                          "duration": 2218
+                          "duration": 4041
                         },
                         {
                           "title": "Cart Manipulation - Remove and Re-add",
-                          "duration": 983
+                          "duration": 1003
                         },
                         {
                           "title": "Complete Purchase with Final Cart",
-                          "duration": 10184
+                          "duration": 10303
                         }
                       ],
-                      "startTime": "2025-08-23T09:02:08.132Z",
+                      "startTime": "2025-08-25T13:10:01.629Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1980,7 +1980,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2686,
+                      "duration": 3228,
                       "errors": [],
                       "stdout": [
                         {
@@ -2010,18 +2010,18 @@
                       "steps": [
                         {
                           "title": "Verify all required page elements are present",
-                          "duration": 43
+                          "duration": 72
                         },
                         {
                           "title": "Verify all 6 products are displayed",
-                          "duration": 18
+                          "duration": 31
                         },
                         {
                           "title": "Verify product details are displayed",
-                          "duration": 37
+                          "duration": 47
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:33.383Z",
+                      "startTime": "2025-08-25T13:09:28.626Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2052,7 +2052,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3040,
+                      "duration": 3662,
                       "errors": [],
                       "stdout": [
                         {
@@ -2064,14 +2064,14 @@
                       "steps": [
                         {
                           "title": "Sort products by name A to Z",
-                          "duration": 113
+                          "duration": 87
                         },
                         {
                           "title": "Verify products are sorted correctly",
-                          "duration": 27
+                          "duration": 19
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:36.076Z",
+                      "startTime": "2025-08-25T13:09:31.859Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2102,7 +2102,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2747,
+                      "duration": 4052,
                       "errors": [],
                       "stdout": [
                         {
@@ -2114,14 +2114,14 @@
                       "steps": [
                         {
                           "title": "Sort products by name Z to A",
-                          "duration": 119
+                          "duration": 85
                         },
                         {
                           "title": "Verify products are sorted correctly",
-                          "duration": 37
+                          "duration": 20
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:39.122Z",
+                      "startTime": "2025-08-25T13:09:35.530Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2152,7 +2152,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2864,
+                      "duration": 3937,
                       "errors": [],
                       "stdout": [
                         {
@@ -2164,14 +2164,14 @@
                       "steps": [
                         {
                           "title": "Sort products by price low to high",
-                          "duration": 163
+                          "duration": 103
                         },
                         {
                           "title": "Verify products are sorted by price correctly",
-                          "duration": 84
+                          "duration": 58
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:41.877Z",
+                      "startTime": "2025-08-25T13:09:39.588Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2202,7 +2202,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2896,
+                      "duration": 3449,
                       "errors": [],
                       "stdout": [
                         {
@@ -2214,14 +2214,14 @@
                       "steps": [
                         {
                           "title": "Sort products by price high to low",
-                          "duration": 143
+                          "duration": 102
                         },
                         {
                           "title": "Verify products are sorted by price correctly",
-                          "duration": 85
+                          "duration": 50
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:44.748Z",
+                      "startTime": "2025-08-25T13:09:43.531Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2253,7 +2253,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2695,
+                      "duration": 3947,
                       "errors": [],
                       "stdout": [
                         {
@@ -2268,18 +2268,18 @@
                       "steps": [
                         {
                           "title": "Add product to cart",
-                          "duration": 58
+                          "duration": 46
                         },
                         {
                           "title": "Verify cart badge shows item count",
-                          "duration": 41
+                          "duration": 36
                         },
                         {
                           "title": "Verify Add to Cart button changes to Remove",
-                          "duration": 8
+                          "duration": 19
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:47.651Z",
+                      "startTime": "2025-08-25T13:09:46.988Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2310,7 +2310,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3066,
+                      "duration": 3728,
                       "errors": [],
                       "stdout": [
                         {
@@ -2325,18 +2325,18 @@
                       "steps": [
                         {
                           "title": "Add multiple products to cart",
-                          "duration": 200
+                          "duration": 127
                         },
                         {
                           "title": "Verify cart badge shows correct count",
-                          "duration": 33
+                          "duration": 23
                         },
                         {
                           "title": "Verify all Add to Cart buttons changed to Remove",
-                          "duration": 16
+                          "duration": 15
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:50.352Z",
+                      "startTime": "2025-08-25T13:09:50.941Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2367,7 +2367,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8039,
+                      "duration": 8093,
                       "errors": [],
                       "stdout": [
                         {
@@ -2382,22 +2382,22 @@
                       "steps": [
                         {
                           "title": "Add product to cart first",
-                          "duration": 106
+                          "duration": 66
                         },
                         {
                           "title": "Remove product from cart",
-                          "duration": 58
+                          "duration": 24
                         },
                         {
                           "title": "Verify cart badge is updated",
-                          "duration": 5012
+                          "duration": 5011
                         },
                         {
                           "title": "Verify Remove button changes back to Add to Cart",
-                          "duration": 3
+                          "duration": 4
                         }
                       ],
-                      "startTime": "2025-08-23T09:01:53.431Z",
+                      "startTime": "2025-08-25T13:09:54.677Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2428,7 +2428,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2475,
+                      "duration": 3278,
                       "errors": [],
                       "stdout": [
                         {
@@ -2467,14 +2467,14 @@
                       "steps": [
                         {
                           "title": "Verify all products have images",
-                          "duration": 30
+                          "duration": 23
                         },
                         {
                           "title": "Verify images are loaded and visible",
-                          "duration": 15
+                          "duration": 14
                         }
                       ],
-                      "startTime": "2025-08-23T09:02:01.477Z",
+                      "startTime": "2025-08-25T13:10:02.776Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2494,8 +2494,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-23T09:01:02.035Z",
-    "duration": 91696.019,
+    "startTime": "2025-08-25T13:08:52.696Z",
+    "duration": 98772.637,
     "expected": 37,
     "skipped": 0,
     "unexpected": 0,
